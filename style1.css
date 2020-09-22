@@ -1,0 +1,154 @@
+/* BASIC STYLES grid-template-rows: évite blanc en dessous du footer*/ body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*l entete*/
+
+header {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+/* NAV BAR */
+
+#nav_bar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav_bar:hover {
+    cursor: pointer;
+}
+
+#nav_bar li {
+    display: flex;
+    padding: 8px;
+}
+
+#nav_bar #sign_in {
+    background: #3972d1;
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.nav-links {
+    color: #525151;
+}
+
+
+li.nav-links a:hover {
+    text-decoration: underline;
+
+}
+
+#sign_in:hover {
+    box-shadow: 1px 1px 5px #999;
+}
+
+#sign_in {
+    color: #fff;
+    margin: 3px;
+    text-align: center;
+    font-size: 80%;
+}
+
+/* GOOGLE AREA */
+.google #google_logo {
+    display: flex;
+    justify-content: center;
+}
+
+/* cadre recherche google */
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+#la_recherche {
+
+    width: 50%;
+    min-width: 300px;
+    height: 8%;
+    line-height: 5px;
+    padding: 20px 10px;
+    margin: auto;
+    border: 1px solid #999;
+    overflow: auto;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 1px;
+    margin-bottom: 300px;
+}
+
+.buttons > input {
+    padding: 5px 10px;
+    border-style: none;
+    margin: 10px;
+}
+
+.buttons > input:hover {
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+footer {
+    padding: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+
+}
+
+
+#france {
+    margin: 30px;
+    padding: 10px;
+    color: #999;
+}
+
+#nav_gauche {
+    margin: 30px;
+    padding: 10px;
+    color: #817f7f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#nav_droit {
+    color: #817f7f;
+    display: flex;
+    margin-left: 30%;
+    align-self: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+body {
+    margin: 0px;
+}
+
+footer {
+    background-color: #e2e2e2;
+
+}
